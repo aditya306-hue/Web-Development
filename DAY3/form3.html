@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkboxes , Radio , dropdown , Range , textArea</title>
+</head>
+<body>
+    <form action = "/server">
+        <hr>
+        <!-- radio -->
+        <h1>Select Favorite Fruit</h1>
+        <div>
+            <input type="radio" name="fruit" value = "apple" id = "appple">
+            <label for="apple">Apple</label>
+            <input type="radio" name = "fruit" value = "mango" id = "mango">
+            <label for="mango">Mango</label>
+            <input type="radio" name="fruit" value = "banana" id = "banana">
+            <label for="banana">Banana</label>
+            <input type="radio" name = "fruit" value = "papaya" id = "papaya">
+            <label for="papaya">Papaya</label>
+            <input type="radio" name="fruit" value = "grapes" id = "grapes">
+            <label for="grapes">Grapes</label>
+            <input type="radio" name = "fruit" value = "pineapple" id = "pineapple">
+            <label for="pineapple">PineApple</label>
+        </div>
+        <hr>
+        <div>
+            <!-- checkbox -->
+            Choose your Subject :
+            <input type="checkbox" name="sub" id="math" value="math">
+            <label for="math">Mathematics</label>
+            <input type="checkbox" name="sub" id="phy" value="phy">
+            <label for="phy">Physics</label>
+            <input type="checkbox" name="sub" id="chem" value="chem">
+            <label for="chem">Chemistry</label>
+            <input type="checkbox" name="sub" id="bio" value="bio">
+            <label for="bio">Biology</label>
+            <input type="checkbox" name="sub" id="cs" value="cs">
+            <label for="cs">Computer Science</label>
+            <input type="checkbox" name="sub" id="eng" value="eng">
+            <label for="eng">English</label>
+            <input type="checkbox" name="sub" id="hin" value="hin">
+            <label for="hin">Hindi</label>
+        </div>
+        <hr>
+        <div>
+            <!-- dropdown -->
+            Choose your profession :
+            <select name = "profession" id = "profession">
+                <option value="">Select your Option</option>
+                <option value="stu" selected>Student</option>
+                <option value="dev">Developer</option>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <!-- Range -->
+            <label for="vol">Select your volume level</label>
+            <input type="range" name="vol" id="vol" min="0" max="100" step="2" value="70">
+        </div>
+        <hr>
+        <div>
+            <!-- textArea -->
+            <label for="feedback"><div>Please give your valuable feedback :</div></label>
+            <textarea name="feedback" id="feedback" placeholder="write your feedback" rows="7" cols="25"></textarea>
+        </div>
+        <hr>
+        <button>Submit</button>
+        <hr>
+
+    </form>
+</body>
+</html>
