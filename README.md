@@ -1,2 +1,2 @@
-# Web Development
-this is a repository which contains Basic codes and Projects of Web Development
+# Web-Development
+this is a repo which contains all codes and projects of Web Development 
